@@ -4,10 +4,40 @@
 }
 .container {
   background-color: lightgreen;
+  margin: 10px;
+  padding: 20px;
+  /* text-align: center; */
 }
 .div {
   background-color: fuchsia;
   margin-bottom: 10px;
   padding: 20px;
   margin-top: 20px;
+  /* override */
+  width: 50%;
+  width: 100px;
+  text-align: center;
+  margin: 20px auto;
+  border: 10px solid purple;
+  box-sizing: border-box;
+}
+hr {
+  margin: 30px 10px;
+}
+/*? inline elementler icerik kadar yer kaplarlar. bu sebepten margin ve padding top ve bottom değerlerini alamazlar. bunları kullanmak için inline-block secilebilir. */
+.nav li {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.nav li:hover {
+  background-color: coral;
+  cursor: pointer;
+  font-weight: 700;
+  color: antiquewhite;
 }
