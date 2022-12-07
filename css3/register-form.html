@@ -15,10 +15,11 @@
   </head>
   <body>
     <h1>REGISTER FORM</h1>
-    <form action="">
+    <form action="" novalidate>
       <div>
         <label for="firstname">First Name</label>
         <input
+          class="inputs"
           type="text"
           name="firstname"
           id="firstname"
@@ -27,7 +28,96 @@
         />
       </div>
       <div>
+        <label for="lastname">Last Name</label>
+        <input class="inputs
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Your Last Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input class="inputs
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your E-mail"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input class="inputs
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+          required
+        />
+      </div>
+      <div>
+        <label for="dob">Day of Birth</label>
+        <input class="inputs"
+          type="date"
+          name="dob"
+          id="dob"
+          min="2020-01-01"
+          value="2022-01-01"
+          placeholder="Your Birhtday"
+          required
+        />
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input class="inputs
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Your Phone Number"
+          required
+        />
+      </div>
+      <div class="textarea-div">
+        <label  for="address">Address</label>
+        <textarea class="inputs" name="address" id="address" placeholder="Your Address" cols="20" rows="5">
+</textarea
+        >
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select class="inputs name="country" id="country">
+          <option value="">Select Country</option>
+          <option value="Turkey">Turkey</option>
+          <option value="German">German</option>
+          <option value="USA">USA</option>
+          <option value="UK0">UK</option>
+        </select>
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <div class="gender-div">
+          <input class="radio-check" type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input class="radio-check" type="radio" name="gender" id="female" checked />
+          <label for="female">Female</label>
+        </div>
+      </div>
+      <div>
+        <label for="languages">Languages</label>
+        <div class="lang-div">
+          <input class="radio-check" type="checkbox" name="lang" id="english" checked />
+          <label for="english">English</label>
+          <input class="radio-check" type="checkbox" name="lang" id="german" />
+          <label for="german">German</label>
+          <input class="radio-check" type="checkbox" name="lang" id="français" />
+          <label for="français">Français</label>
+        </div>
+      </div>
+      <div class="btn-container">
         <input type="submit" value="Save" />
+        <input type="reset" value="Clear" />
       </div>
     </form>
   </body>

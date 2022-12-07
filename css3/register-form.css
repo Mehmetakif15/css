@@ -5,4 +5,70 @@
 }
 body {
   font-family: "Raleway", sans-serif;
+  background-image: url("https://picsum.photos/id/330/600/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*! body nin default yuksekligi yoktur */
+  height: 100vh; /*?Tarayicinin gorunen alanin 100 % yuksekligi*/
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+form {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    50deg,
+    rgba(51, 200, 199, 0.5) 0%,
+    rgba(213, 71, 235, 0.5) 100%
+  );
+}
+/*? label inline elementtir. Dolayisiyla width propertisi dogrudan calimaz. */
+label {
+  display: inline-block;
+  width: 100px;
+}
+.lang-div {
+  display: inline-block;
+}
+.gender-div {
+  display: inline-block;
+}
+.lang-div label,
+.gender-div label {
+  width: auto;
+  margin-right: 10px;
+}
+.inputs {
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.radio-check {
+  margin-bottom: 20px;
+}
+.btn-container {
+  text-align: center;
+}
+.btn-container input {
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(299, 100%, 70%);
+  padding: 10px;
+}
+.btn-container input:hover {
+  background-color: hsl(299, 100%, 40%);
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+.textarea-div * {
+  vertical-align: middle;
 }
