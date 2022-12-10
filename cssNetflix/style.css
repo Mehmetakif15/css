@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/background_image.jpg);
+  /* position: relative; */
+  /* width: 1440px;
+  height: 1096px; */
+  /* background-color: white; */
+}
+/* img {
+  position: absolute;
+} */
+.container {
+  /* position: absolute;
+  left: 6.94%;
+  right: 6.94%;
+  top: 2.74%;
+  bottom: 2.74%; */
+  background: #000000;
+  opacity: 0.3;
+  /* position: absolute; */
+  max-width: 1240px;
+  margin: 30px 100px;
+  /* height: 1036px;
+  left: 100px;
+  top: 30px; */
+}
+/* .container .title {
+  position: absolute;
+  width: 1240px;
+  height: 90px;
+  left: 100px;
+  top: 30px; */
+/* background: #c4c4c4;
+  opacity: 0;
+}
+/* .container .title .rectangle8 {
+  position: absolute;
+  width: 1240px;
+  height: 90px;
+  left: 100px;
+  top: 30px;
+  background: #c4c4c4;
+  opacity: 0;
+} */
+/* .container .title .title1 {
+  position: absolute;
+  width: 1240px;
+  height: 75px;
+  left: 100px;
+  top: 45px;
+}
+.container .title .title1 h1 {
+  position: absolute;
+  width: 1240px;
+  height: 75px;
+  left: 100px;
+  top: 45px;
+  font-family: "Bowlby One SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 0%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+span {
+  color: #ff0000;
+}
+.description {
+  position: absolute;
+  width: 1240px;
+  height: 48px;
+  left: 100px;
+  top: 120px;
+  background: #c4c4c4;
+  opacity: 0;
+} */
+/* .description .rectangle3 {
+  position: absolute;
+  width: 1240px;
+  height: 48px;
+  left: 100px;
+  top: 120px;
+} */
+/* .description p {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 0%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+form {
+  position: absolute;
+  width: 500px;
+  height: 897px;
+  left: 470px;
+  top: 168px;
+}
+.name {
+  position: absolute;
+  width: 460px;
+  height: 94px;
+  left: 510px;
+  top: 198px;
+} */
