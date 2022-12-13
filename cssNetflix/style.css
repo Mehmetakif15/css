@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +8,9 @@ body {
   background-image: url(./img/background_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1096px;
-  width: 1440px;
+  background-position: center;
+  /* height: 1096px; */
+  /* width: 1440px; */
 }
 .container {
   background: linear-gradient(
@@ -20,7 +19,7 @@ body {
     rgba(0, 0, 0, 0.3) 100%
   );
   max-width: 1240px;
-  margin: 30px 100px;
+  margin: 30px auto;
 
   /* height: 1036px; */
   /* margin: 30px 100px; */
@@ -35,9 +34,9 @@ body {
   /* border: 2px solid red; */
 }
 
-.container .title .title1 h1 {
+.container .title h1 {
   color: #ffffff;
-  font-family: "Bowlby One", cursive;
+  font-family: "Bowlby One SC", cursive;
   font-weight: 400;
   font-size: 50px;
   /* line-height: 0%; */
