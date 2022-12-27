@@ -1,0 +1,90 @@
+.yazi {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem auto;
+  width: 50vw;
+}
+/* **** transfom-rotate *** */
+
+.yazi1 {
+  background-color: orangered;
+  transform: rotateX(180deg);
+}
+.yazi2 {
+  background-color: lawngreen;
+  transform: rotateY(180deg);
+}
+.yazi3 {
+  background-color: fuchsia;
+  transform: rotate(10deg);
+}
+
+/* ***** transform-scale *** */
+
+.yazi4 {
+  background-color: yellow;
+  transform: scaleX(1.5);
+}
+.yazi5 {
+  background-color: aqua;
+  transform: scaleY(2);
+}
+.yazi6 {
+  background-color: crimson;
+}
+.yazi6:hover {
+  transform: rotate(30deg) scale(2);
+}
+
+/* ***** TRANSFORM-TRASLATE *** */
+.box {
+  background-color: lightpink;
+  width: 100px;
+  font-weight: 800;
+  height: 50px;
+  /* transition-property: width; */
+  /* transition-duration: 2s; */
+  /* transition-delay: 2s; */
+  /* transition-timing-function: ease; */
+  /* transition: background-color 3s, width 3s, height 3s; */
+  /* transition: all 2s; */
+  transition: all 2s ease-in;
+}
+.X {
+  transform: translateX(50px);
+}
+.Y {
+  transform: translateY(150px);
+}
+.XY {
+  transform: translate(100px, 50px);
+}
+.XY:active {
+  transform: translate(50px, 40px);
+}
+.X:active {
+  transform: translateX(100px);
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+}
+.Y:active {
+  background-color: magenta;
+}
+.btn-div {
+  text-align: center;
+}
+.btn {
+  background-color: goldenrod;
+  border: 2px solid darkred;
+  padding: 10px;
+  color: antiquewhite;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  transition: background-color 3s ease-in-out, color 1s;
+}
+.btn:hover {
+  background-color: tomato;
+  border-radius: 15px;
+  color: gold;
+}
