@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 50vh 25vh 25vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+  border: 1px solid red;
+}
+
+.content7 {
+  overflow: auto;
+}
+
+.content9 {
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/19/06/31/australian-shepherd-7664795_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
